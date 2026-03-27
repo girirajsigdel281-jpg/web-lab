@@ -1,0 +1,135 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 15px 30px;
+    color: #fff;
+}
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin-left: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+.nav-links a:hover {
+    color: #ff9800;
+}
+
+/* Home Section */
+.home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: #f4f4f4;
+}
+.home-contents {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.home-image img {
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+.home-intro h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.home-intro p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.home-button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.home-button:hover {
+    background: #ff9800;
+}
+
+/* Calendar Section */
+.calendar-section {
+    padding: 40px;
+    text-align: center;
+    background: #fff;
+}
+#calendar-container {
+    margin-top: 20px;
+    display: inline-block;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+.bottom-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.bottom-links a {
+    text-decoration: none;
+    color: #fff;
+}
+.bottom-links a:hover {
+    color: #ff9800;
+}
+/* Calendar Section */
+.calendar-section {
+    padding: 40px;
+    text-align: center;
+    background: #fff;
+}
+#calendar-container {
+    margin-top: 20px;
+    display: inline-block;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+#event-list {
+    margin-top: 30px;
+    text-align: left;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#events li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 8px;
+    border-left: 4px solid #ff9800;
+}
